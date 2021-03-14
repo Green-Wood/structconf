@@ -1,6 +1,7 @@
-from structconf import StructConf
-from pydantic.error_wrappers import ValidationError
 import pytest
+
+from pydantic.error_wrappers import ValidationError
+from structconf import StructConf
 
 
 class AConf(StructConf):

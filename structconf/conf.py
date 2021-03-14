@@ -1,6 +1,10 @@
-from typing import Type, TypeVar
+from typing import Type
+from typing import TypeVar
+
 from pydantic import BaseModel
+
 import yaml
+
 
 T = TypeVar("T")
 
@@ -22,7 +26,7 @@ class StructConf(BaseModel):
         T
             structured class
         """
-        with open(path, 'r') as f:
+        with open(path, "r") as f:
             conf = yaml.safe_load(f)
         if conf is not None:
             model = cls(**conf)
