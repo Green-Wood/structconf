@@ -1,6 +1,7 @@
 # StructConf
 
 [![PyPI](https://img.shields.io/pypi/v/structconf?color=blue)](https://pypi.org/project/structconf/)
+[![Codecov](https://img.shields.io/codecov/c/gh/Green-Wood/structconf)](https://app.codecov.io/gh/Green-Wood/structconf)
 
 Config your project with yaml and validation.
 
