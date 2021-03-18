@@ -34,4 +34,4 @@ def test_default():
 
 def test_error():
     with pytest.raises(ValidationError):
-        conf = ComplexConf.load(f"{prefix}/complex_error.yaml")
+        _ = ComplexConf.load(f"{prefix}/complex_error.yaml")
